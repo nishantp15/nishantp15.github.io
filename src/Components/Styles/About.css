@@ -107,7 +107,7 @@
   /* word-wrap: normal; */
 }
 
-.resume{
+#resume-button-2{
   width: 20%;
   background-color: rgb(151, 244, 250);
   border: none;
@@ -117,7 +117,7 @@
   cursor: pointer;
 }
 
-.resume:active{
+#resume-button-2:active{
   background-color: rgb(38, 96, 101);
 }
 

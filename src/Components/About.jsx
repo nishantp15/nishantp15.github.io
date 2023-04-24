@@ -1,11 +1,19 @@
 import React from "react";
 import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
-
+import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 function About() {
- function RedirectToResume(){
-  window.open('https://drive.google.com/drive/folders/14jxM8A2BNIvXrzxQ1n_doBFn7SeULrMU?usp=share_link',"_blank")
- }
+ function DownloadResume(){
+  
+  const anchor = document.createElement('a');
+  anchor.href = resume;
+  anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.remove();
+ 
+
+}
   return (
     <div id="about" class="about section">
       <div id="welcome">
@@ -64,7 +72,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={RedirectToResume} id="resume-button-2" class="nav-link resume">Download Resume</button>
+            <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
           </div>
         </div>
       </div>

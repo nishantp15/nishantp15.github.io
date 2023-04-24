@@ -28,7 +28,7 @@
 }
 
 #menu-right {
-  width: 30rem;
+  width: 50vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -87,8 +87,8 @@
   /* } */
 
   #menubar-right {
-    /* border: 1px solid white; */
-    width: 20%;
+    /* border: 1px solid red; */
+    width: 30%;
     height: 100%;
     display: flex;
     align-items: center;

@@ -11,7 +11,7 @@ import { RxCross1 } from 'react-icons/rx'
 import { BsPencilSquare } from 'react-icons/bs'
 import { useState } from "react";
 import { useEffect } from "react";
-
+import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 
 
 
@@ -38,6 +38,18 @@ function Navbar() {
     }else{
       setISActive(true)
     }
+  }
+
+  function DownloadResume(){
+  
+    const anchor = document.createElement('a');
+    anchor.href = resume;
+    anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+   
+  
   }
 
   // function DateDisplayFun(){
@@ -84,6 +96,9 @@ function Navbar() {
           </ScrollIntoView>
           <ScrollIntoView selector="#contact" className="nav-link contact">
             <p onClick={() => css(3)}> Contact Details </p>
+          </ScrollIntoView>
+          <ScrollIntoView >
+            <p class="nav-link resume" onClick={DownloadResume} > Resume </p>
           </ScrollIntoView>
         </div>
       </div>
