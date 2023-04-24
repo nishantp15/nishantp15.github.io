@@ -13,18 +13,18 @@ function Projects() {
       <h1> Projects </h1>
       <div id="Project-Disp">
         {/* 1 */}
-        <div class="project-card" className="Indiv-Project-Box">
+        <div className="project-card">
           <h3 className="project-title"> Faballey - Fullstack clone </h3>
           <div className="ProjectImage">
             <img src={Faballey} alt="" />
           </div>
           <h4> Description: </h4>
-          <p class="project-description">
+          <p className="project-description">
             FabAlley.com is an online fashion store offering
             design-differentiated and fashionable clothing and accessories for
             woman on-the-go.
           </p>
-          <p class="project-tech-stack">
+          <p classNames="project-tech-stack">
             <span
               style={{
                 fontWeight: "bold",
@@ -36,8 +36,7 @@ function Projects() {
             <b>Backend: </b> Express.js, Node.js, MongoDB
           </p>
           <div id="linkstoproject">
-            <div class="project-github-link"
-              className="IconDiv"
+            <div className="project-github-link IconDiv"
               onClick={() => {
                 redirect(
                   "https://github.com/nishantp15/FullStack-FaballeyClone"
@@ -52,8 +51,8 @@ function Projects() {
               </div>
               <p>Github</p>
             </div>
-            <div class="project-deployed-link"
-              className="IconDiv"
+            <div className="project-deployed-link IconDiv"
+              
               onClick={() => {
                 redirect("https://faballey-85796.web.app/");
               }}
@@ -69,7 +68,7 @@ function Projects() {
           </div>
         </div>
         {/* 1 */}
-        <div class="project-card" className="Indiv-Project-Box">
+        <div className="project-card" >
           <h3 className="project-title"> The Horse Clone </h3>
           <div className="ProjectImage">
             <img src={thehorse} alt="" />
@@ -79,7 +78,7 @@ function Projects() {
             The Horse is an E - commerce platform based in Australia that offers
             one of its kind fashion & beauty products.
           </p>
-          <p class="project-tech-stack">
+          <p className="project-tech-stack">
             <span
               style={{
                 fontWeight: "bold",
@@ -88,8 +87,8 @@ function Projects() {
               Tech Stack Used: </span> React.js, Redux, Chakra UI, HTML, CSS, JSON Server <br /> <br />
           </p>
           <div id="linkstoproject">
-            <div class="project-github-link"
-              className="IconDiv"
+            <div className="project-github-link IconDiv"
+              
               onClick={() => {
                 redirect(
                   "https://github.com/mayankCreation0/TheHorse.com.auClone"
@@ -104,8 +103,8 @@ function Projects() {
               </div>
               <p>Github</p>
             </div>
-            <div class="project-deployed-link"
-              className="IconDiv"
+            <div className="project-deployed-link IconDiv"
+           
               onClick={() => {
                 redirect("https://thehorse.netlify.app/");
               }}
@@ -121,17 +120,17 @@ function Projects() {
           </div>
         </div>
         {/* 2 */}
-        <div class="project-card" className="Indiv-Project-Box">
+        <div className="project-card">
           <h3 className="project-title"> NetMeds Clone </h3>
           <div className="ProjectImage">
             <img src={NetMeds} alt="" />
           </div>
           <h4> Description: </h4>
-          <p class="project-description">
+          <p className="project-description">
             NetMeds is an Indian Startup, that sells pharmaceutical products and
             provides online medical consultation across India.
           </p>
-          <p class="project-tech-stack">
+          <p className="project-tech-stack">
             <span
               style={{
                 fontWeight: "bold",
@@ -139,8 +138,8 @@ function Projects() {
             >Tech Stack Used: </span> JavaScript, HTML, CSS, JSON Server <br /> <br />
           </p>
           <div id="linkstoproject">
-            <div class="project-github-link"
-              className="IconDiv"
+            <div className="project-github-link IconDiv"
+             
               onClick={() => {
                 redirect("https://github.com/Meshabaz/Netmeds-clone");
               }}
@@ -153,8 +152,8 @@ function Projects() {
               </div>
               <p> Github </p>
             </div>
-            <div class="project-deployed-link"
-              className="IconDiv"
+            <div className="project-deployed-link IconDiv"
+            
               onClick={() => {
                 redirect("https://beautiful-donut-393183.netlify.app/");
               }}
@@ -170,24 +169,24 @@ function Projects() {
           </div>
         </div>
         {/* 3 */}
-        <div class="project-card" className="Indiv-Project-Box">
+        <div className="project-card" >
           <h3 className="project-title"> JioMart Clone </h3>
           <div className="ProjectImage">
             <img src={JioMart} alt="" />
           </div>
           <h4> Description: </h4>
-          <p class="project-description">
+          <p className="project-description">
             JioMart is an Indian e - commerce company, headquartered in
             Maharashtra, India.It sells Grocery, Electronics, Apparels, Beauty,
             Personal Care & other products through its online platform.
           </p>
-          <p class="project-tech-stack">
+          <p className="project-tech-stack">
             <span style={{fontWeight: "bold" }} >
               Tech Stack Used: </span> JavaScript, HTML, CSS
           </p>
           <div id="linkstoproject">
-            <div class="project-github-link"
-              className="IconDiv"
+            <div className="project-github-link IconDiv"
+             
               onClick={() => {
                 redirect("https://github.com/anuj-midha247/JIO_MART_CLONE");
               }}
@@ -200,8 +199,8 @@ function Projects() {
               </div>
               <p> Github </p>
             </div>
-            <div class="project-deployed-link"
-              className="IconDiv"
+            <div className="project-deployed-link IconDiv"
+      
               onClick={() => {
                 redirect("https://verdant-bavarois-8d0744.netlify.app/");
               }}
