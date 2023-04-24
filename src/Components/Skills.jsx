@@ -72,7 +72,7 @@ function Skills() {
 ]
 
   return (
-    <div id="Skills-Container">
+    <div id="skills">
       <h1> SKILLS </h1>
       <div className="Skills-SubSection">
         <h2>TECHNICAL SKILLS</h2>

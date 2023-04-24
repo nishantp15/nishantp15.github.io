@@ -1,4 +1,4 @@
-#Skills-Container {
+#skills {
     width: 100%;
     margin: auto;
     text-align: center;
@@ -19,7 +19,7 @@
 .Skills-SubSection>h2{
     margin: 0px;
 }
-#Skills-Container>h3{
+#skills>h3{
     width: 200px;
     margin: 1.2rem auto;
     padding: 5px 0px;
@@ -90,7 +90,7 @@
         margin: 5px;
     }
 
-    #Skills-Container {
+    #skills {
         padding-top: 5px;
     }
 }

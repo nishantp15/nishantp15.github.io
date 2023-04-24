@@ -9,7 +9,7 @@ function Projects() {
     window.open(url, "_blank");
   }
   return (
-    <div id="Projects-Container">
+    <div id="projects">
       <h1> Projects </h1>
       <div id="Project-Disp">
         {/* 1 */}

@@ -1,4 +1,4 @@
-#Header {
+#about {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -107,8 +107,22 @@
   /* word-wrap: normal; */
 }
 
+.resume{
+  width: 20%;
+  background-color: rgb(151, 244, 250);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.resume:active{
+  background-color: rgb(38, 96, 101);
+}
+
 @media screen and (min-width: 0px) and (max-width: 552px) {
-  #Header,
+  #about,
   #welcome,
   #profile,
   #profile-Image {

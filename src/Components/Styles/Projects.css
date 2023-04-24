@@ -1,4 +1,4 @@
-#Projects-Container {
+#projects{
   width: 100%;
   margin: auto;
   text-align: center;
@@ -10,7 +10,7 @@
   padding-bottom: 40px;
 }
 
-#Projects-Container > h1 {
+#projects> h1 {
   color: white;
 }
 
@@ -115,7 +115,7 @@
     width: 45%;
   }
 
-  #Projects-Container {
+  #projects{
     padding-top: 5px;
   }
 }
