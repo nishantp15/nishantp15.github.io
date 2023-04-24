@@ -70,8 +70,8 @@ function Navbar() {
         <ScrollIntoView selector="#home" class="nav-link home">
             <p onClick={() => css(0)}> Home </p>
           </ScrollIntoView>
-          <ScrollIntoView selector="#about" class="nav-link about">
-            <p onClick={() => css(0)}> About </p>
+          <ScrollIntoView selector="#about" class=".nav-link.about">
+            <p  class="nav-link about" onClick={() => css(0)}> About </p>
           </ScrollIntoView>
           <ScrollIntoView selector="#skills" class="nav-link skills">
             <p id="1" onClick={() => css(1)}>

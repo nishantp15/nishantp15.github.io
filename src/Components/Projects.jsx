@@ -13,7 +13,7 @@ function Projects() {
       <h1> Projects </h1>
       <div id="Project-Disp">
         {/* 1 */}
-        <div className="Indiv-Project-Box">
+        <div class="project-card" className="Indiv-Project-Box">
           <h3> Faballey - Fullstack clone </h3>
           <div className="ProjectImage">
             <img src={Faballey} alt="" />
@@ -69,7 +69,7 @@ function Projects() {
           </div>
         </div>
         {/* 1 */}
-        <div className="Indiv-Project-Box">
+        <div class="project-card" className="Indiv-Project-Box">
           <h3> The Horse Clone </h3>
           <div className="ProjectImage">
             <img src={thehorse} alt="" />
@@ -121,7 +121,7 @@ function Projects() {
           </div>
         </div>
         {/* 2 */}
-        <div className="Indiv-Project-Box">
+        <div class="project-card" className="Indiv-Project-Box">
           <h3> NetMeds Clone </h3>
           <div className="ProjectImage">
             <img src={NetMeds} alt="" />
@@ -170,7 +170,7 @@ function Projects() {
           </div>
         </div>
         {/* 3 */}
-        <div className="Indiv-Project-Box">
+        <div class="project-card" className="Indiv-Project-Box">
           <h3> JioMart Clone </h3>
           <div className="ProjectImage">
             <img src={JioMart} alt="" />
