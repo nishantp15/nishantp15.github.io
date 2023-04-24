@@ -64,7 +64,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={RedirectToResume} class="nav-link resume">Download Resume</button>
+            <button onClick={RedirectToResume} id="resume-button-2" class="nav-link resume">Download Resume</button>
           </div>
         </div>
       </div>
