@@ -97,8 +97,8 @@ function Navbar() {
           <ScrollIntoView selector="#contact" className="nav-link contact">
             <p onClick={() => css(3)}> Contact Details </p>
           </ScrollIntoView>
-          <ScrollIntoView >
-            <p class="nav-link resume" onClick={DownloadResume} > Resume </p>
+          <ScrollIntoView class="nav-link resume">
+            <button onClick={DownloadResume}  id="resume-button-1" >Resume</button>
           </ScrollIntoView>
         </div>
       </div>
