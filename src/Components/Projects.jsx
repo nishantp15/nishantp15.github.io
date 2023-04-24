@@ -74,7 +74,7 @@ function Projects() {
             <img src={thehorse} alt="" />
           </div>
           <h4> Description: </h4>
-          <p class="project-description">
+          <p className="project-description">
             The Horse is an E - commerce platform based in Australia that offers
             one of its kind fashion & beauty products.
           </p>
