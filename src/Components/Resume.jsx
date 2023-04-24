@@ -15,9 +15,9 @@ const Resume = () => {
       }
   return (
     <div id="resume" className="Resume1">
-      <div>
+      
         <button onClick={DownloadResume} id="resume-button-1">Download Resume</button>
-      </div>
+      
     </div>
   );
 };
