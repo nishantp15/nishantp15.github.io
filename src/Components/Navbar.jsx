@@ -89,7 +89,6 @@ function Navbar() {
           </ScrollIntoView>
           <ScrollIntoView selector="#resume"  className="nav-link resume">
           <p onClick={() => css(3)}> Resume </p>
-            
           </ScrollIntoView>
         </div>
       </div>
