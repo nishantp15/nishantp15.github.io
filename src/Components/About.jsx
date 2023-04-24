@@ -16,10 +16,10 @@ function About() {
       
       <div id="profile">
         <div id="profile-Image">
-          <img src={profileImage} alt="" class="home-img" />
+          <img src={profileImage} alt="" className="home-img" />
         </div>
         <div id="About">
-          <h2> ABOUT ME</h2>
+          <h2> About</h2>
           <div id="about-details">
             <p  id="user-detail-intro">
               I am a full - stack web developer and enthusiast learner capable

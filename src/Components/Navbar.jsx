@@ -67,22 +67,22 @@ function Navbar() {
             <p>{date.toLocaleTimeString()}</p>
         </div>
         <div id="menu-right" ref={x}>
-        <ScrollIntoView selector="#home" class="nav-link home">
+        <ScrollIntoView selector="#home" className="nav-link home">
             <p onClick={() => css(0)}> Home </p>
           </ScrollIntoView>
-          <ScrollIntoView selector="#about" class=".nav-link.about">
-            <p  class="nav-link about" onClick={() => css(0)}> About </p>
+          <ScrollIntoView selector="#about" className=".nav-link.about">
+            <p  className="nav-link about" onClick={() => css(0)}> About </p>
           </ScrollIntoView>
-          <ScrollIntoView selector="#skills" class="nav-link skills">
+          <ScrollIntoView selector="#skills" className="nav-link skills">
             <p id="1" onClick={() => css(1)}>
               
               Skills
             </p>
           </ScrollIntoView>
-          <ScrollIntoView selector="#projects" class="nav-link projects">
+          <ScrollIntoView selector="#projects" className="nav-link projects">
             <p onClick={() => css(2)}> Projects </p>
           </ScrollIntoView>
-          <ScrollIntoView selector="#contact" class="nav-link contact">
+          <ScrollIntoView selector="#contact" className="nav-link contact">
             <p onClick={() => css(3)}> Contact Details </p>
           </ScrollIntoView>
         </div>
