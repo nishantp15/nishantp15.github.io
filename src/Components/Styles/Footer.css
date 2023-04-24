@@ -1,0 +1,35 @@
+#Footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  /* background-color: rgb(228, 225, 225,); */
+  background-color: rgb(13, 19, 58);
+}
+
+#Footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#Footer > div > p {
+  margin: 10px 0px;
+}
+
+#Footer > div > h4 {
+  margin: 4px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  #Footer {
+    padding-bottom: 200px;
+  }
+}

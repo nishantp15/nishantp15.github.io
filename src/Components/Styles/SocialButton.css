@@ -1,0 +1,103 @@
+.SocialButton{
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 11rem;
+    top: 6rem;
+    right: 0%;
+    z-index: 5;
+    width: 2.6rem;
+    border-top-left-radius: 10px;
+    background-color: rgba(178, 242, 226, 0.715);
+    opacity: 0;
+    filter: blur(4px);
+    transition: .8s;
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.hideButtons{
+  /* animation: fade-out 0.8s 0.1s backwards ; */
+  right: -10%;
+  filter: blur(4px);
+  transition: .8s;
+}
+
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+  @keyframes fade-out {
+    100% {
+      opacity: 0;
+      filter: blur(4px);
+    }
+  }
+
+.SocialLink-SideButton{
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  
+  .Social-LinkedIn{
+    color: rgb(6, 103, 194);
+  }
+
+  .Social-Github{
+    color: black;
+  }
+  
+  .EmailIcon{
+    color: rgb(255, 127, 127);
+  }
+  
+  .SocialLinkInstagram{
+    width: 1.8rem;
+    cursor: pointer;
+  }
+
+  .showSocialButtons{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 17rem;
+    right: 0%;
+    z-index: 5;
+    width: 2.6rem;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(178, 242, 226, 0.715);
+    opacity: 0;
+    filter: blur(4px);
+    transition: 1s;
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.arrowIcon{
+  font-size: 1.2rem;
+  transition: .5s;
+  font-weight: 100;
+}
+
+.arrowIconRotate{
+  transform: rotate(-180deg);
+  font-size: 1.2rem;
+  padding: 5px 0px;
+  transition: .5s;
+}
+
+.hideSocialButtons{
+  transition: .1s;
+  width: 1.5rem;
+  border-top-left-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

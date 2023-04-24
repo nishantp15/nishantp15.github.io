@@ -1,0 +1,98 @@
+#ContactDetails {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 20PX;
+  /* background-color: rgb(13, 19, 58); */
+  /* border: 1px solid red; */
+}
+
+
+.ContactDetails-SubSection{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.Individual-Contact-Details{
+  width: 22%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius:10px;
+  word-wrap: break-word;
+  padding: 4px;
+  border: 1px solid rgb(7, 146, 156);
+}
+
+.contactIcon{
+  font-size: 1.8rem;
+}
+
+.LinkedInIcon{
+  color: rgb(6, 103, 194);
+}
+
+.EmailIcon{
+  color: rgb(255, 127, 127);
+}
+
+.ContactInstagram{
+  width: 1.8rem;
+}
+
+.Individual-Contact-Details>div{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.Individual-Contact-Details>div:last-child{
+  width: 120px;
+  height: 28px;
+  padding: 2px 4px;
+  border-radius: 28px;
+  background-color: rgb(124, 202, 204);
+}
+
+.Individual-Contact-Details>div:last-child:hover{
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: .5s;
+  background-color: aquamarine;
+}
+
+.Individual-Contact-Details>p{
+  margin: 0px;
+  word-break: break-all;
+}
+
+.Individual-Contact-Details>div>h4{
+  margin: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.sendIcon{
+  font-size: 1.2rem;
+  color: rgb(41, 41, 41);
+  margin-bottom: -2.5px;
+  margin-left: 4px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
+  .Individual-Contact-Details{
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+}
