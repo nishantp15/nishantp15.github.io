@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 import SocialButton from '../Components/SocialButton'
 const Home = () => {
   return (
-    <div id="home" class="nav-link home">
+    <div id="home">
         <Navbar/>
         <About/>
         <Skills/>
