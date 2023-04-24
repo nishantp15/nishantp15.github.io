@@ -81,12 +81,12 @@ function Skills() {
       <div className="Skills-Display">
         {languages.map((ele,i) => {
           return (
-            <div key={i+1} className="Individual-Skill-Container">
+            <div key={i+1} class="skills-card" className="Individual-Skill-Container">
               <div className="Tech-Image">
-                <img src={ele.img} alt="Img" />
+                <img class="skills-card-img" src={ele.img} alt="Img" />
               </div>
               <div>
-                <h4> {ele.techname} </h4>
+                <h4 class="skills-card-name"> {ele.techname} </h4>
               </div>
             </div>
           );
@@ -96,12 +96,12 @@ function Skills() {
       <div className="Skills-Display">
         {frontendFrameworks.map((ele,i) => {
           return (
-            <div key={i+1} className="Individual-Skill-Container">
+            <div key={i+1} class="skills-card" className="Individual-Skill-Container">
               <div className="Tech-Image">
-                <img src={ele.img} alt="" />
+                <img class="skills-card-img" src={ele.img} alt="" />
               </div>
               <div>
-                <h4> {ele.techname} </h4>
+                <h4 class="skills-card-name"> {ele.techname} </h4>
               </div>
             </div>
           );
@@ -111,12 +111,12 @@ function Skills() {
       <div className="Skills-Display">
         {backendFramework.map((ele,i) => {
           return (
-            <div key={i+1} className="Individual-Skill-Container">
+            <div key={i+1} class="skills-card" className="Individual-Skill-Container">
               <div className="Tech-Image">
-                <img src={ele.img} alt="" />
+                <img class="skills-card-img" src={ele.img} alt="" />
               </div>
               <div>
-                <h4> {ele.techname} </h4>
+                <h4 class="skills-card-name"> {ele.techname} </h4>
               </div>
             </div>
           );
@@ -126,12 +126,12 @@ function Skills() {
       <div className="Skills-Display">
         {deployment.map((ele,i) => {
           return (
-            <div key={i+1} className="Individual-Skill-Container">
+            <div key={i+1} class="skills-card" className="Individual-Skill-Container">
               <div className="Tech-Image">
-                <img src={ele.img} alt="" />
+                <img class="skills-card-img" src={ele.img} alt="" />
               </div>
               <div>
-                <h4> {ele.techname} </h4>
+                <h4 class="skills-card-name"> {ele.techname} </h4>
               </div>
             </div>
           );
