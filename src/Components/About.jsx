@@ -72,10 +72,11 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
+            
           </div>
         </div>
       </div>
+      <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
     </div>
   );
 }
