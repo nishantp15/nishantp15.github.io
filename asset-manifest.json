@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.40e94288.css",
-    "main.js": "/static/js/main.222d3a59.js",
+    "main.js": "/static/js/main.738748d6.js",
     "static/media/Faballey.png": "/static/media/Faballey.b946ad24b59ec39efeda.png",
     "static/media/JioMart.png": "/static/media/JioMart.6de7b9cb998e48df505d.png",
     "static/media/NetMeds.png": "/static/media/NetMeds.8e62baec17345ff431fc.png",
@@ -9,10 +9,10 @@
     "static/media/download-removebg-preview (1).jpg": "/static/media/download-removebg-preview (1).7da8fff5ae4acd649076.jpg",
     "index.html": "/index.html",
     "main.40e94288.css.map": "/static/css/main.40e94288.css.map",
-    "main.222d3a59.js.map": "/static/js/main.222d3a59.js.map"
+    "main.738748d6.js.map": "/static/js/main.738748d6.js.map"
   },
   "entrypoints": [
     "static/css/main.40e94288.css",
-    "static/js/main.222d3a59.js"
+    "static/js/main.738748d6.js"
   ]
 }
