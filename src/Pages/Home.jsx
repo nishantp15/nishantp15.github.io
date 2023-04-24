@@ -7,10 +7,12 @@ import ContactDetails from '../Components/ContactDetails'
 import Footer from '../Components/Footer'
 import SocialButton from '../Components/SocialButton'
 import Resume from '../Components/Resume'
+import DummyHome from '../Components/DummyHome'
 const Home = () => {
   return (
-    <div id="home">
+    <div >
         <Navbar/>
+        <DummyHome/>
         <About/>
         <Skills/>
         <Projects/>
