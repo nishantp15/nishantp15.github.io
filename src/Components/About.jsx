@@ -3,8 +3,8 @@ import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
 import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 function About() {
- function DownloadResume(){
-  
+ function DownloadResume(e){
+  console.log(e)
   const anchor = document.createElement('a');
   anchor.href = resume;
   anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
@@ -15,7 +15,7 @@ function About() {
 
 }
   return (
-    <div id="about" class="about section">
+    <div id="about" className="about section">
       <div id="welcome">
         <h1> WELCOME! </h1> <h1 id="user-detail-name"> Hi, I 'm Nishant</h1>
         <p> A Full Stack Web Developer and An Enthusiast Learner. </p>

@@ -24,7 +24,7 @@ function Projects() {
             design-differentiated and fashionable clothing and accessories for
             woman on-the-go.
           </p>
-          <p classNames="project-tech-stack">
+          <p className="project-tech-stack">
             <span
               style={{
                 fontWeight: "bold",
