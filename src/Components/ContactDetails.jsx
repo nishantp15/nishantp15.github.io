@@ -82,7 +82,7 @@ function ContactDetails() {
             <TbSend className="sendIcon" />{" "}
           </div>
         </div>
-        <div id="contact-phone">7088068960</div>
+        <div id="contact-phone"> 7088068960 </div>
       </div>
     </div>
   );
