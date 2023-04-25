@@ -4,7 +4,8 @@ import profileImage from "../Media/download-removebg-preview (1).jpg";
 import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 function About() {
  function DownloadResume(e){
-  console.log(e)
+  e.preventDefault()
+
   const anchor = document.createElement('a');
   anchor.href = resume;
   anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
