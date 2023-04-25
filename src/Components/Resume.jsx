@@ -6,13 +6,15 @@ const Resume = () => {
     e.preventDefault();
     const anchor = document.createElement("a");
     anchor.href = resume;
+    anchor.id = "resume-link-1"
     anchor.setAttribute(
       "download",
       "Resume_Nishant_Prajapati_FullStack_developer"
     );
     document.body.appendChild(anchor);
     anchor.click();
-    anchor.remove();
+    // anchor.remove();
+    
   }
   return (
     <div className="Resume1">

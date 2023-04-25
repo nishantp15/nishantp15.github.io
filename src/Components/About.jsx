@@ -8,6 +8,7 @@ function About() {
 
   const anchor = document.createElement('a');
   anchor.href = resume;
+  anchor.id = "resume-link-2"
   anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
   document.body.appendChild(anchor);
   anchor.click();
@@ -73,7 +74,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
+            <button value={'download'} onClick={DownloadResume} id="resume-button-2">Download Resume</button>
           </div>
         </div>
       </div>
