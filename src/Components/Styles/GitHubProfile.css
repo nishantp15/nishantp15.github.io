@@ -11,12 +11,9 @@
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.GitHub>div>div{
-    width: 40%;
-    /* border: 1px solid red; */
-
+    /* padding: 20px; */
+    box-sizing: border-box;
 }
