@@ -19,7 +19,6 @@ const Home = () => {
         <Skills/>
         <Projects/>
         <ContactDetails/>
-        <Resume/>
         <GitHubProfile/>
         <Footer/>
         <SocialButton/>

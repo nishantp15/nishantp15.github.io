@@ -3,19 +3,20 @@ import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
 import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 function About() {
- function DownloadResume(e){
-  e.preventDefault()
-
-  const anchor = document.createElement('a');
-  anchor.href = resume;
-  anchor.id = "resume-link-2"
-  anchor.setAttribute('download','Resume_Nishant_Prajapati_FullStack_developer');
-  document.body.appendChild(anchor);
-  anchor.click();
-  anchor.remove();
- 
-
-}
+  function DownloadResume(e) {
+    e.preventDefault();
+    const anchor = document.createElement("a");
+    anchor.href = resume;
+    anchor.id = "resume-link-2"
+    anchor.setAttribute(
+      "download",
+      "Resume_Nishant_Prajapati_FullStack_developer"
+    );
+    document.body.appendChild(anchor);
+    anchor.click();
+    // anchor.remove();
+    
+  }
   return (
     <div id="about" className="about section">
       <div id="welcome">
@@ -74,7 +75,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button value={'download'} onClick={DownloadResume} id="resume-button-2">Download Resume</button>
+            <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
           </div>
         </div>
       </div>

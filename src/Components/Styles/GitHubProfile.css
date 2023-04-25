@@ -17,3 +17,9 @@
     /* padding: 20px; */
     box-sizing: border-box;
 }
+
+
+.react-activity-calendar{
+    /* border: 1px solid red; */
+    margin: 20px;
+}
