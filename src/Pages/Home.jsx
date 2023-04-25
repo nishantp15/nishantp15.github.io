@@ -6,7 +6,6 @@ import Projects from '../Components/Projects'
 import ContactDetails from '../Components/ContactDetails'
 import Footer from '../Components/Footer'
 import SocialButton from '../Components/SocialButton'
-import Resume from '../Components/Resume'
 import DummyHome from '../Components/DummyHome'
 import GitHubProfile from '../Components/GitHubProfile'
 
