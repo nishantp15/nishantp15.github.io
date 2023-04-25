@@ -8,6 +8,8 @@ import Footer from '../Components/Footer'
 import SocialButton from '../Components/SocialButton'
 import Resume from '../Components/Resume'
 import DummyHome from '../Components/DummyHome'
+import GitHubProfile from '../Components/GitHubProfile'
+
 const Home = () => {
   return (
     <div >
@@ -18,6 +20,7 @@ const Home = () => {
         <Projects/>
         <ContactDetails/>
         <Resume/>
+        <GitHubProfile/>
         <Footer/>
         <SocialButton/>
     </div>
