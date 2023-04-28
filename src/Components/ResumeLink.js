@@ -5,7 +5,7 @@ function DownloadResume(e) {
    
     e.preventDefault();
     const anchor = document.createElement("a");
-    anchor.href = resume;
+    anchor.href = downloadUrl;
     anchor.setAttribute(
       "download",
       "Resume_Nishant_Prajapati_FullStack_developer"
