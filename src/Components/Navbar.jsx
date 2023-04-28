@@ -12,6 +12,7 @@ import { BsPencilSquare } from "react-icons/bs";
 import { useState } from "react";
 import { useEffect } from "react";
 import resume from "../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf";
+import DownloadResume from "./ResumeLink";
 function Navbar() {
   let x = useRef();
   let [isActive, setISActive] = useState(true);
@@ -35,23 +36,23 @@ function Navbar() {
     }
   }
 
-  function DownloadResume(e) {
-    e.preventDefault();
-    const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
-    window.open(newPageUrl, '_blank')
+  // function DownloadResume(e) {
+  //   e.preventDefault();
+  //   const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
+  //   window.open(newPageUrl, '_blank')
 
-    const anchor = document.createElement("a");
-    anchor.href = resume;
-    anchor.id = "resume-link-1"
-    anchor.setAttribute(
-      "download",
-      "Resume_Nishant_Prajapati_FullStack_developer"
-    );
-    document.body.appendChild(anchor);
-    anchor.click();
-    // anchor.remove();
+  //   const anchor = document.createElement("a");
+  //   anchor.href = resume;
+  //   anchor.id = "resume-link-1"
+  //   anchor.setAttribute(
+  //     "download",
+  //     "Resume_Nishant_Prajapati_FullStack_developer"
+  //   );
+  //   document.body.appendChild(anchor);
+  //   anchor.click();
+  //   // anchor.remove();
     
-  }
+  // }
 
   // function DateDisplayFun(){
   //   let dateArr = date.toDateString().split(" ")

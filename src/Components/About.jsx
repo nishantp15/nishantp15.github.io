@@ -2,31 +2,28 @@ import React from "react";
 import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
 import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
+import DownloadResume from "./ResumeLink";
 function About() {
-  function DownloadResume(e) {
-    e.preventDefault();
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
-    const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
-    // window.location.href = downloadUrl;
-    // window.location.reload(false)
+  // function DownloadResume(e) {
+  //   e.preventDefault();
+  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
+  //   const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
+   
+  //   e.preventDefault();
+  //   const anchor = document.createElement("a");
+  //   anchor.href = resume;
+  //   anchor.setAttribute(
+  //     "download",
+  //     "Resume_Nishant_Prajapati_FullStack_developer"
+  //   );
+  //   document.body.appendChild(anchor);
+  //   anchor.click();
+  //   anchor.remove();
+  //   window.open(newPageUrl, '_blank')
     
-    // window.open('https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link')
-    // window.location.href = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
-    // window.document.URL('https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link')
-    e.preventDefault();
-    const anchor = document.createElement("a");
-    anchor.href = resume;
-    anchor.id = "resume-link-2"
-    anchor.setAttribute(
-      "download",
-      "Resume_Nishant_Prajapati_FullStack_developer"
-    );
-    document.body.appendChild(anchor);
-    anchor.click();
-    anchor.remove();
-    window.open(newPageUrl, '_blank')
-    
-  }
+  // }
+
+
   return (
     <div id="about" className="about section">
       <div id="welcome">
@@ -85,7 +82,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={DownloadResume} download id="resume-button-2">Resume</button>
+            <button onClick={DownloadResume} id="resume-button-2">Resume</button>
           </div>
         </div>
       </div>
