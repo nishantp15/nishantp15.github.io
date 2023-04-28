@@ -15,9 +15,10 @@ function ContactDetails() {
         <div className="Individual-Contact-Details">
           <div>
             <MdOutlineMarkEmailRead className="contactIcon EmailIcon" />
-            <h4>Email</h4>
+            <h4>Email & Phone</h4>
           </div>
           <p>prajapati.nishant@outlook.com</p>
+          <div id="contact-phone"> 7088068960 </div> 
           <div
           id="contact-email"
             className="writemeEmail"

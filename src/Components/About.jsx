@@ -77,7 +77,7 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <button onClick={DownloadResume} id="resume-button-2">Download Resume</button>
+            <button onClick={DownloadResume} download id="resume-button-2">Resume</button>
           </div>
         </div>
       </div>
