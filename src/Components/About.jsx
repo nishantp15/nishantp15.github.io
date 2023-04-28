@@ -2,15 +2,15 @@ import React from "react";
 import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
 // import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
-// import DownloadResume from "./ResumeLink";
-import { Button } from '@chakra-ui/react'
+import DownloadResume from "./ResumeLink";
+// import { Button } from '@chakra-ui/react'
 function About() {
-  function DownloadResume(e) {
-    e.preventDefault();
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
-    const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
-    window.open(newPageUrl, '_blank')
-   window.location.href=downloadUrl
+  // function DownloadResume(e) {
+  //   e.preventDefault();
+  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
+  //   const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
+  //   window.open(newPageUrl, '_blank')
+  //  window.location.href=downloadUrl
   //   const anchor = document.createElement("a");
   //   anchor.href = resume;
   //   anchor.setAttribute(
@@ -20,8 +20,7 @@ function About() {
   //   document.body.appendChild(anchor);
   //   anchor.click();
   //   anchor.remove();
-  }
-
+  // }
 
   return (
     <div id="about" className="about section">
@@ -29,8 +28,7 @@ function About() {
         <h1> WELCOME! </h1> <h1 id="user-detail-name"> Hi, I 'm Nishant</h1>
         <p> A Full Stack Web Developer and An Enthusiast Learner. </p>
       </div>
-      
-      
+
       <div id="profile">
         <div id="profile-Image">
           <img src={profileImage} alt="" className="home-img" />
@@ -38,7 +36,7 @@ function About() {
         <div id="About">
           <h2> About</h2>
           <div id="about-details">
-            <p  id="user-detail-intro">
+            <p id="user-detail-intro">
               I am a full - stack web developer and enthusiast learner capable
               of writing efficient and clean codes and debugging existing ones
               to meet business - centric requirements and give users a smooth
@@ -57,8 +55,8 @@ function About() {
           <div id="contact-details">
             <div>
               <p>
-                <span style={{fontWeight: "bold",}}>
-                  Email:</span>&nbsp;prajapati.nishant@outlook.com
+                <span style={{ fontWeight: "bold" }}>Email:</span>
+                &nbsp;prajapati.nishant@outlook.com
               </p>
               <p>
                 <span
@@ -81,10 +79,12 @@ function About() {
                 &nbsp;English, Hindi
               </p>
             </div>
-            <Button onClick={DownloadResume} className="button-5" download id="resume-button-2">
+            {/* <Button onClick={DownloadResume} className="button-5" download id="resume-button-2">
               Resume
-            </Button>
-            {/* <button onClick={DownloadResume} id="resume-button-2">Resume</button> */}
+            </Button> */}
+            <button onClick={DownloadResume} id="resume-button-2">
+              Resume
+            </button>
           </div>
         </div>
       </div>
