@@ -5,7 +5,7 @@ function DownloadResume(e) {
     const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
    
     const anchor = document.createElement("a");
-    anchor.href = downloadUrl;
+    anchor.href = resume;
     anchor.setAttribute(
       "download",
       "Resume_Nishant_Prajapati_FullStack_developer"
