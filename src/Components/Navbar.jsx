@@ -11,7 +11,7 @@ import { RxCross1 } from "react-icons/rx";
 import { BsPencilSquare } from "react-icons/bs";
 import { useState } from "react";
 import { useEffect } from "react";
-import resume from "../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf";
+// import resume from "../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf";
 import DownloadResume from "./ResumeLink";
 function Navbar() {
   let x = useRef();
