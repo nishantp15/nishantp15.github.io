@@ -37,6 +37,9 @@ function Navbar() {
 
   function DownloadResume(e) {
     e.preventDefault();
+    const newPageUrl = `https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link`
+    window.open(newPageUrl, '_blank')
+
     const anchor = document.createElement("a");
     anchor.href = resume;
     anchor.id = "resume-link-1"
