@@ -20,7 +20,6 @@ function About() {
   //   anchor.click();
   //   anchor.remove();
   //   window.open(newPageUrl, '_blank')
-    
   // }
 
 
