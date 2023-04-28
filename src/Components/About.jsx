@@ -1,20 +1,22 @@
 import React from "react";
 import "./Styles/About.css";
 import profileImage from "../Media/download-removebg-preview (1).jpg";
-import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
+// import resume from '../Media/Nishant_Prajapati_Resume_Fullstack_Web_Dev.pdf'
 function About() {
   function DownloadResume(e) {
-    e.preventDefault();
-    const anchor = document.createElement("a");
-    anchor.href = resume;
-    anchor.id = "resume-link-2"
-    anchor.setAttribute(
-      "download",
-      "Resume_Nishant_Prajapati_FullStack_developer"
-    );
-    document.body.appendChild(anchor);
-    anchor.click();
-    // anchor.remove();
+    window.open('https://drive.google.com/file/d/1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa/view?usp=share_link')
+    window.location.href = `https://drive.google.com/uc?export=download&id=1jTLnglKOPH4NuEa6TY7IrSiqkf8tpkxa`
+    // e.preventDefault();
+    // const anchor = document.createElement("a");
+    // anchor.href = resume;
+    // anchor.id = "resume-link-2"
+    // anchor.setAttribute(
+    //   "download",
+    //   "Resume_Nishant_Prajapati_FullStack_developer"
+    // );
+    // document.body.appendChild(anchor);
+    // anchor.click();
+    // // anchor.remove();
     
   }
   return (
